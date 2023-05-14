@@ -1,0 +1,506 @@
+[21-Jan-2023 20:37:06 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/class-wpdb.php on line 1775
+[21-Jan-2023 20:37:06 UTC] PHP Stack trace:
+[21-Jan-2023 20:37:06 UTC] PHP   1. {main}() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[21-Jan-2023 20:37:06 UTC] PHP   2. include() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[21-Jan-2023 20:37:06 UTC] PHP   3. include() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[21-Jan-2023 20:37:06 UTC] PHP   4. WP_CLI\bootstrap() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[21-Jan-2023 20:37:06 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:78
+[21-Jan-2023 20:37:06 UTC] PHP   6. WP_CLI\Runner->start() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:28
+[21-Jan-2023 20:37:06 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1235
+[21-Jan-2023 20:37:06 UTC] PHP   8. require() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1317
+[21-Jan-2023 20:37:06 UTC] PHP   9. require_wp_db() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-settings.php:124
+[21-Jan-2023 20:37:06 UTC] PHP  10. wpdb->__construct() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/load.php:562
+[21-Jan-2023 20:37:06 UTC] PHP  11. wpdb->db_connect() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/class-wpdb.php:734
+[21-Jan-2023 20:37:06 UTC] PHP  12. mysqli_real_connect() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/class-wpdb.php:1775
+[22-Jan-2023 03:32:03 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/class-wpdb.php on line 1775
+[22-Jan-2023 03:32:03 UTC] PHP Stack trace:
+[22-Jan-2023 03:32:03 UTC] PHP   1. {main}() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[22-Jan-2023 03:32:03 UTC] PHP   2. include() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[22-Jan-2023 03:32:03 UTC] PHP   3. include() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[22-Jan-2023 03:32:03 UTC] PHP   4. WP_CLI\bootstrap() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[22-Jan-2023 03:32:03 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:78
+[22-Jan-2023 03:32:03 UTC] PHP   6. WP_CLI\Runner->start() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:28
+[22-Jan-2023 03:32:03 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1235
+[22-Jan-2023 03:32:03 UTC] PHP   8. require() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1317
+[22-Jan-2023 03:32:03 UTC] PHP   9. require_wp_db() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-settings.php:124
+[22-Jan-2023 03:32:03 UTC] PHP  10. wpdb->__construct() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/load.php:562
+[22-Jan-2023 03:32:03 UTC] PHP  11. wpdb->db_connect() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/class-wpdb.php:734
+[22-Jan-2023 03:32:03 UTC] PHP  12. mysqli_real_connect() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/class-wpdb.php:1775
+[22-Jan-2023 03:32:03 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/class-wpdb.php on line 1775
+[22-Jan-2023 03:32:03 UTC] PHP Stack trace:
+[22-Jan-2023 03:32:03 UTC] PHP   1. {main}() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[22-Jan-2023 03:32:03 UTC] PHP   2. include() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[22-Jan-2023 03:32:03 UTC] PHP   3. include() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[22-Jan-2023 03:32:03 UTC] PHP   4. WP_CLI\bootstrap() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[22-Jan-2023 03:32:03 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:78
+[22-Jan-2023 03:32:03 UTC] PHP   6. WP_CLI\Runner->start() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:28
+[22-Jan-2023 03:32:03 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1235
+[22-Jan-2023 03:32:03 UTC] PHP   8. require() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1317
+[22-Jan-2023 03:32:03 UTC] PHP   9. require_wp_db() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-settings.php:124
+[22-Jan-2023 03:32:03 UTC] PHP  10. wpdb->__construct() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/load.php:562
+[22-Jan-2023 03:32:03 UTC] PHP  11. wpdb->db_connect() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/class-wpdb.php:734
+[22-Jan-2023 03:32:03 UTC] PHP  12. mysqli_real_connect() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/class-wpdb.php:1775
+[22-Jan-2023 03:32:03 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/class-wpdb.php on line 1775
+[22-Jan-2023 03:32:03 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/class-wpdb.php on line 1775
+[22-Jan-2023 03:32:03 UTC] PHP Stack trace:
+[22-Jan-2023 03:32:03 UTC] PHP Stack trace:
+[22-Jan-2023 03:32:03 UTC] PHP   1. {main}() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[22-Jan-2023 03:32:03 UTC] PHP   1. {main}() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[22-Jan-2023 03:32:03 UTC] PHP   2. include() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[22-Jan-2023 03:32:03 UTC] PHP   2. include() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[22-Jan-2023 03:32:03 UTC] PHP   3. include() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[22-Jan-2023 03:32:03 UTC] PHP   3. include() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[22-Jan-2023 03:32:03 UTC] PHP   4. WP_CLI\bootstrap() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[22-Jan-2023 03:32:03 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:78
+[22-Jan-2023 03:32:03 UTC] PHP   6. WP_CLI\Runner->start() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:28
+[22-Jan-2023 03:32:03 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1235
+[22-Jan-2023 03:32:03 UTC] PHP   8. require() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1317
+[22-Jan-2023 03:32:03 UTC] PHP   9. require_wp_db() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-settings.php:124
+[22-Jan-2023 03:32:03 UTC] PHP  10. wpdb->__construct() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/load.php:562
+[22-Jan-2023 03:32:03 UTC] PHP  11. wpdb->db_connect() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/class-wpdb.php:734
+[22-Jan-2023 03:32:03 UTC] PHP  12. mysqli_real_connect() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/class-wpdb.php:1775
+[22-Jan-2023 03:32:03 UTC] PHP   4. WP_CLI\bootstrap() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[22-Jan-2023 03:32:03 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:78
+[22-Jan-2023 03:32:03 UTC] PHP   6. WP_CLI\Runner->start() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:28
+[22-Jan-2023 03:32:03 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1235
+[22-Jan-2023 03:32:03 UTC] PHP   8. require() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1317
+[22-Jan-2023 03:32:03 UTC] PHP   9. require_wp_db() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-settings.php:124
+[22-Jan-2023 03:32:03 UTC] PHP  10. wpdb->__construct() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/load.php:562
+[22-Jan-2023 03:32:03 UTC] PHP  11. wpdb->db_connect() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/class-wpdb.php:734
+[22-Jan-2023 03:32:03 UTC] PHP  12. mysqli_real_connect() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/class-wpdb.php:1775
+[22-Jan-2023 03:32:03 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/class-wpdb.php on line 1775
+[22-Jan-2023 03:32:03 UTC] PHP Stack trace:
+[22-Jan-2023 03:32:03 UTC] PHP   1. {main}() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[22-Jan-2023 03:32:03 UTC] PHP   2. include() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[22-Jan-2023 03:32:03 UTC] PHP   3. include() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[22-Jan-2023 03:32:03 UTC] PHP   4. WP_CLI\bootstrap() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[22-Jan-2023 03:32:03 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:78
+[22-Jan-2023 03:32:03 UTC] PHP   6. WP_CLI\Runner->start() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:28
+[22-Jan-2023 03:32:03 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1235
+[22-Jan-2023 03:32:03 UTC] PHP   8. require() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1317
+[22-Jan-2023 03:32:03 UTC] PHP   9. require_wp_db() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-settings.php:124
+[22-Jan-2023 03:32:03 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/class-wpdb.php on line 1775
+[22-Jan-2023 03:32:03 UTC] PHP  10. wpdb->__construct() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/load.php:562
+[22-Jan-2023 03:32:03 UTC] PHP Stack trace:
+[22-Jan-2023 03:32:03 UTC] PHP  11. wpdb->db_connect() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/class-wpdb.php:734
+[22-Jan-2023 03:32:03 UTC] PHP   1. {main}() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[22-Jan-2023 03:32:03 UTC] PHP  12. mysqli_real_connect() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/class-wpdb.php:1775
+[22-Jan-2023 03:32:03 UTC] PHP   2. include() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[22-Jan-2023 03:32:03 UTC] PHP   3. include() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[22-Jan-2023 03:32:03 UTC] PHP   4. WP_CLI\bootstrap() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[22-Jan-2023 03:32:03 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:78
+[22-Jan-2023 03:32:03 UTC] PHP   6. WP_CLI\Runner->start() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:28
+[22-Jan-2023 03:32:03 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1235
+[22-Jan-2023 03:32:03 UTC] PHP   8. require() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1317
+[22-Jan-2023 03:32:03 UTC] PHP   9. require_wp_db() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-settings.php:124
+[22-Jan-2023 03:32:03 UTC] PHP  10. wpdb->__construct() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/load.php:562
+[22-Jan-2023 03:32:03 UTC] PHP  11. wpdb->db_connect() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/class-wpdb.php:734
+[22-Jan-2023 03:32:03 UTC] PHP  12. mysqli_real_connect() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/class-wpdb.php:1775
+[22-Jan-2023 03:32:03 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/class-wpdb.php on line 1775
+[22-Jan-2023 03:32:03 UTC] PHP Stack trace:
+[22-Jan-2023 03:32:03 UTC] PHP   1. {main}() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[22-Jan-2023 03:32:03 UTC] PHP   2. include() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[22-Jan-2023 03:32:03 UTC] PHP   3. include() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[22-Jan-2023 03:32:03 UTC] PHP   4. WP_CLI\bootstrap() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[22-Jan-2023 03:32:03 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:78
+[22-Jan-2023 03:32:03 UTC] PHP   6. WP_CLI\Runner->start() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:28
+[22-Jan-2023 03:32:03 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1235
+[22-Jan-2023 03:32:03 UTC] PHP   8. require() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1317
+[22-Jan-2023 03:32:03 UTC] PHP   9. require_wp_db() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-settings.php:124
+[22-Jan-2023 03:32:03 UTC] PHP  10. wpdb->__construct() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/load.php:562
+[22-Jan-2023 03:32:03 UTC] PHP  11. wpdb->db_connect() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/class-wpdb.php:734
+[22-Jan-2023 03:32:03 UTC] PHP  12. mysqli_real_connect() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/class-wpdb.php:1775
+[22-Jan-2023 03:32:03 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/class-wpdb.php on line 1775
+[22-Jan-2023 03:32:03 UTC] PHP Stack trace:
+[22-Jan-2023 03:32:03 UTC] PHP   1. {main}() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[22-Jan-2023 03:32:03 UTC] PHP   2. include() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[22-Jan-2023 03:32:03 UTC] PHP   3. include() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[22-Jan-2023 03:32:03 UTC] PHP   4. WP_CLI\bootstrap() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[22-Jan-2023 03:32:03 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:78
+[22-Jan-2023 03:32:03 UTC] PHP   6. WP_CLI\Runner->start() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:28
+[22-Jan-2023 03:32:03 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1235
+[22-Jan-2023 03:32:03 UTC] PHP   8. require() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1317
+[22-Jan-2023 03:32:03 UTC] PHP   9. require_wp_db() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-settings.php:124
+[22-Jan-2023 03:32:03 UTC] PHP  10. wpdb->__construct() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/load.php:562
+[22-Jan-2023 03:32:03 UTC] PHP  11. wpdb->db_connect() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/class-wpdb.php:734
+[22-Jan-2023 03:32:03 UTC] PHP  12. mysqli_real_connect() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/class-wpdb.php:1775
+[22-Jan-2023 03:32:03 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/class-wpdb.php on line 1775
+[22-Jan-2023 03:32:03 UTC] PHP Stack trace:
+[22-Jan-2023 03:32:03 UTC] PHP   1. {main}() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[22-Jan-2023 03:32:03 UTC] PHP   2. include() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[22-Jan-2023 03:32:03 UTC] PHP   3. include() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[22-Jan-2023 03:32:03 UTC] PHP   4. WP_CLI\bootstrap() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[22-Jan-2023 03:32:03 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:78
+[22-Jan-2023 03:32:03 UTC] PHP   6. WP_CLI\Runner->start() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:28
+[22-Jan-2023 03:32:03 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1235
+[22-Jan-2023 03:32:03 UTC] PHP   8. require() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1317
+[22-Jan-2023 03:32:03 UTC] PHP   9. require_wp_db() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-settings.php:124
+[22-Jan-2023 03:32:03 UTC] PHP  10. wpdb->__construct() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/load.php:562
+[22-Jan-2023 03:32:03 UTC] PHP  11. wpdb->db_connect() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/class-wpdb.php:734
+[22-Jan-2023 03:32:03 UTC] PHP  12. mysqli_real_connect() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/class-wpdb.php:1775
+[22-Jan-2023 03:32:03 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/class-wpdb.php on line 1775
+[22-Jan-2023 03:32:03 UTC] PHP Stack trace:
+[22-Jan-2023 03:32:03 UTC] PHP   1. {main}() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[22-Jan-2023 03:32:03 UTC] PHP   2. include() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[22-Jan-2023 03:32:03 UTC] PHP   3. include() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[22-Jan-2023 03:32:03 UTC] PHP   4. WP_CLI\bootstrap() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[22-Jan-2023 03:32:03 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:78
+[22-Jan-2023 03:32:03 UTC] PHP   6. WP_CLI\Runner->start() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:28
+[22-Jan-2023 03:32:03 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1235
+[22-Jan-2023 03:32:03 UTC] PHP   8. require() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1317
+[22-Jan-2023 03:32:03 UTC] PHP   9. require_wp_db() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-settings.php:124
+[22-Jan-2023 03:32:03 UTC] PHP  10. wpdb->__construct() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/load.php:562
+[22-Jan-2023 03:32:03 UTC] PHP  11. wpdb->db_connect() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/class-wpdb.php:734
+[22-Jan-2023 03:32:03 UTC] PHP  12. mysqli_real_connect() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/class-wpdb.php:1775
+[26-Jan-2023 00:31:30 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/class-wpdb.php on line 1775
+[26-Jan-2023 00:31:30 UTC] PHP Stack trace:
+[26-Jan-2023 00:31:30 UTC] PHP   1. {main}() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[26-Jan-2023 00:31:30 UTC] PHP   2. include() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[26-Jan-2023 00:31:30 UTC] PHP   3. include() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[26-Jan-2023 00:31:30 UTC] PHP   4. WP_CLI\bootstrap() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[26-Jan-2023 00:31:30 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:78
+[26-Jan-2023 00:31:30 UTC] PHP   6. WP_CLI\Runner->start() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:28
+[26-Jan-2023 00:31:30 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1235
+[26-Jan-2023 00:31:30 UTC] PHP   8. require() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1317
+[26-Jan-2023 00:31:30 UTC] PHP   9. require_wp_db() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-settings.php:124
+[26-Jan-2023 00:31:30 UTC] PHP  10. wpdb->__construct() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/load.php:562
+[26-Jan-2023 00:31:30 UTC] PHP  11. wpdb->db_connect() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/class-wpdb.php:734
+[26-Jan-2023 00:31:30 UTC] PHP  12. mysqli_real_connect() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/class-wpdb.php:1775
+[26-Jan-2023 00:31:30 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/class-wpdb.php on line 1775
+[26-Jan-2023 00:31:30 UTC] PHP Stack trace:
+[26-Jan-2023 00:31:30 UTC] PHP   1. {main}() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[26-Jan-2023 00:31:30 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/class-wpdb.php on line 1775
+[26-Jan-2023 00:31:30 UTC] PHP   2. include() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[26-Jan-2023 00:31:30 UTC] PHP Stack trace:
+[26-Jan-2023 00:31:30 UTC] PHP   3. include() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[26-Jan-2023 00:31:30 UTC] PHP   1. {main}() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[26-Jan-2023 00:31:30 UTC] PHP   4. WP_CLI\bootstrap() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[26-Jan-2023 00:31:30 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:78
+[26-Jan-2023 00:31:30 UTC] PHP   6. WP_CLI\Runner->start() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:28
+[26-Jan-2023 00:31:30 UTC] PHP   2. include() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[26-Jan-2023 00:31:30 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1235
+[26-Jan-2023 00:31:30 UTC] PHP   8. require() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1317
+[26-Jan-2023 00:31:30 UTC] PHP   3. include() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[26-Jan-2023 00:31:30 UTC] PHP   9. require_wp_db() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-settings.php:124
+[26-Jan-2023 00:31:30 UTC] PHP   4. WP_CLI\bootstrap() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[26-Jan-2023 00:31:30 UTC] PHP  10. wpdb->__construct() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/load.php:562
+[26-Jan-2023 00:31:30 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:78
+[26-Jan-2023 00:31:30 UTC] PHP  11. wpdb->db_connect() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/class-wpdb.php:734
+[26-Jan-2023 00:31:30 UTC] PHP   6. WP_CLI\Runner->start() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:28
+[26-Jan-2023 00:31:30 UTC] PHP  12. mysqli_real_connect() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/class-wpdb.php:1775
+[26-Jan-2023 00:31:30 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1235
+[26-Jan-2023 00:31:30 UTC] PHP   8. require() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1317
+[26-Jan-2023 00:31:30 UTC] PHP   9. require_wp_db() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-settings.php:124
+[26-Jan-2023 00:31:30 UTC] PHP  10. wpdb->__construct() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/load.php:562
+[26-Jan-2023 00:31:30 UTC] PHP  11. wpdb->db_connect() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/class-wpdb.php:734
+[26-Jan-2023 00:31:30 UTC] PHP  12. mysqli_real_connect() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/class-wpdb.php:1775
+[26-Jan-2023 00:31:33 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/class-wpdb.php on line 1775
+[26-Jan-2023 00:31:33 UTC] PHP Stack trace:
+[26-Jan-2023 00:31:33 UTC] PHP   1. {main}() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[26-Jan-2023 00:31:33 UTC] PHP   2. include() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[26-Jan-2023 00:31:33 UTC] PHP   3. include() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[26-Jan-2023 00:31:33 UTC] PHP   4. WP_CLI\bootstrap() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[26-Jan-2023 00:31:33 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:78
+[26-Jan-2023 00:31:33 UTC] PHP   6. WP_CLI\Runner->start() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:28
+[26-Jan-2023 00:31:33 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1235
+[26-Jan-2023 00:31:33 UTC] PHP   8. require() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1317
+[26-Jan-2023 00:31:33 UTC] PHP   9. require_wp_db() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-settings.php:124
+[26-Jan-2023 00:31:33 UTC] PHP  10. wpdb->__construct() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/load.php:562
+[26-Jan-2023 00:31:33 UTC] PHP  11. wpdb->db_connect() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/class-wpdb.php:734
+[26-Jan-2023 00:31:33 UTC] PHP  12. mysqli_real_connect() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/class-wpdb.php:1775
+[26-Jan-2023 00:31:33 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/class-wpdb.php on line 1775
+[26-Jan-2023 00:31:33 UTC] PHP Stack trace:
+[26-Jan-2023 00:31:33 UTC] PHP   1. {main}() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[26-Jan-2023 00:31:33 UTC] PHP   2. include() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[26-Jan-2023 00:31:33 UTC] PHP   3. include() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[26-Jan-2023 00:31:33 UTC] PHP   4. WP_CLI\bootstrap() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[26-Jan-2023 00:31:33 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:78
+[26-Jan-2023 00:31:33 UTC] PHP   6. WP_CLI\Runner->start() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:28
+[26-Jan-2023 00:31:33 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1235
+[26-Jan-2023 00:31:33 UTC] PHP   8. require() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1317
+[26-Jan-2023 00:31:33 UTC] PHP   9. require_wp_db() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-settings.php:124
+[26-Jan-2023 00:31:33 UTC] PHP  10. wpdb->__construct() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/load.php:562
+[26-Jan-2023 00:31:33 UTC] PHP  11. wpdb->db_connect() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/class-wpdb.php:734
+[26-Jan-2023 00:31:33 UTC] PHP  12. mysqli_real_connect() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/class-wpdb.php:1775
+[26-Jan-2023 00:31:33 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/class-wpdb.php on line 1775
+[26-Jan-2023 00:31:33 UTC] PHP Stack trace:
+[26-Jan-2023 00:31:33 UTC] PHP   1. {main}() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[26-Jan-2023 00:31:33 UTC] PHP   2. include() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[26-Jan-2023 00:31:33 UTC] PHP   3. include() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[26-Jan-2023 00:31:33 UTC] PHP   4. WP_CLI\bootstrap() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[26-Jan-2023 00:31:33 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:78
+[26-Jan-2023 00:31:33 UTC] PHP   6. WP_CLI\Runner->start() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:28
+[26-Jan-2023 00:31:33 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1235
+[26-Jan-2023 00:31:33 UTC] PHP   8. require() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1317
+[26-Jan-2023 00:31:33 UTC] PHP   9. require_wp_db() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-settings.php:124
+[26-Jan-2023 00:31:33 UTC] PHP  10. wpdb->__construct() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/load.php:562
+[26-Jan-2023 00:31:33 UTC] PHP  11. wpdb->db_connect() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/class-wpdb.php:734
+[26-Jan-2023 00:31:33 UTC] PHP  12. mysqli_real_connect() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/class-wpdb.php:1775
+[26-Jan-2023 00:31:33 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/class-wpdb.php on line 1775
+[26-Jan-2023 00:31:33 UTC] PHP Stack trace:
+[26-Jan-2023 00:31:33 UTC] PHP   1. {main}() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[26-Jan-2023 00:31:33 UTC] PHP   2. include() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[26-Jan-2023 00:31:33 UTC] PHP   3. include() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[26-Jan-2023 00:31:33 UTC] PHP   4. WP_CLI\bootstrap() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[26-Jan-2023 00:31:33 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:78
+[26-Jan-2023 00:31:33 UTC] PHP   6. WP_CLI\Runner->start() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:28
+[26-Jan-2023 00:31:33 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1235
+[26-Jan-2023 00:31:33 UTC] PHP   8. require() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1317
+[26-Jan-2023 00:31:33 UTC] PHP   9. require_wp_db() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-settings.php:124
+[26-Jan-2023 00:31:33 UTC] PHP  10. wpdb->__construct() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/load.php:562
+[26-Jan-2023 00:31:33 UTC] PHP  11. wpdb->db_connect() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/class-wpdb.php:734
+[26-Jan-2023 00:31:33 UTC] PHP  12. mysqli_real_connect() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/class-wpdb.php:1775
+[26-Jan-2023 00:31:33 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/class-wpdb.php on line 1775
+[26-Jan-2023 00:31:33 UTC] PHP Stack trace:
+[26-Jan-2023 00:31:33 UTC] PHP   1. {main}() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[26-Jan-2023 00:31:33 UTC] PHP   2. include() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[26-Jan-2023 00:31:33 UTC] PHP   3. include() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[26-Jan-2023 00:31:33 UTC] PHP   4. WP_CLI\bootstrap() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[26-Jan-2023 00:31:33 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:78
+[26-Jan-2023 00:31:33 UTC] PHP   6. WP_CLI\Runner->start() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:28
+[26-Jan-2023 00:31:33 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1235
+[26-Jan-2023 00:31:33 UTC] PHP   8. require() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1317
+[26-Jan-2023 00:31:33 UTC] PHP   9. require_wp_db() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-settings.php:124
+[26-Jan-2023 00:31:33 UTC] PHP  10. wpdb->__construct() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/load.php:562
+[26-Jan-2023 00:31:33 UTC] PHP  11. wpdb->db_connect() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/class-wpdb.php:734
+[26-Jan-2023 00:31:33 UTC] PHP  12. mysqli_real_connect() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/class-wpdb.php:1775
+[26-Jan-2023 00:31:33 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/class-wpdb.php on line 1775
+[26-Jan-2023 00:31:33 UTC] PHP Stack trace:
+[26-Jan-2023 00:31:33 UTC] PHP   1. {main}() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[26-Jan-2023 00:31:33 UTC] PHP   2. include() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[26-Jan-2023 00:31:33 UTC] PHP   3. include() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[26-Jan-2023 00:31:33 UTC] PHP   4. WP_CLI\bootstrap() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[26-Jan-2023 00:31:33 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:78
+[26-Jan-2023 00:31:33 UTC] PHP   6. WP_CLI\Runner->start() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:28
+[26-Jan-2023 00:31:33 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1235
+[26-Jan-2023 00:31:33 UTC] PHP   8. require() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1317
+[26-Jan-2023 00:31:33 UTC] PHP   9. require_wp_db() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-settings.php:124
+[26-Jan-2023 00:31:33 UTC] PHP  10. wpdb->__construct() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/load.php:562
+[26-Jan-2023 00:31:33 UTC] PHP  11. wpdb->db_connect() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/class-wpdb.php:734
+[26-Jan-2023 00:31:33 UTC] PHP  12. mysqli_real_connect() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/class-wpdb.php:1775
+[26-Jan-2023 00:31:33 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/class-wpdb.php on line 1775
+[26-Jan-2023 00:31:33 UTC] PHP Stack trace:
+[26-Jan-2023 00:31:33 UTC] PHP   1. {main}() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[26-Jan-2023 00:31:33 UTC] PHP   2. include() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[26-Jan-2023 00:31:33 UTC] PHP   3. include() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[26-Jan-2023 00:31:33 UTC] PHP   4. WP_CLI\bootstrap() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[26-Jan-2023 00:31:33 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:78
+[26-Jan-2023 00:31:33 UTC] PHP   6. WP_CLI\Runner->start() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:28
+[26-Jan-2023 00:31:33 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1235
+[26-Jan-2023 00:31:33 UTC] PHP   8. require() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1317
+[26-Jan-2023 00:31:33 UTC] PHP   9. require_wp_db() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-settings.php:124
+[26-Jan-2023 00:31:33 UTC] PHP  10. wpdb->__construct() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/load.php:562
+[26-Jan-2023 00:31:33 UTC] PHP  11. wpdb->db_connect() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/class-wpdb.php:734
+[26-Jan-2023 00:31:33 UTC] PHP  12. mysqli_real_connect() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/class-wpdb.php:1775
+[26-Jan-2023 00:31:33 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/class-wpdb.php on line 1775
+[26-Jan-2023 00:31:33 UTC] PHP Stack trace:
+[26-Jan-2023 00:31:33 UTC] PHP   1. {main}() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[26-Jan-2023 00:31:33 UTC] PHP   2. include() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[26-Jan-2023 00:31:33 UTC] PHP   3. include() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[26-Jan-2023 00:31:33 UTC] PHP   4. WP_CLI\bootstrap() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[26-Jan-2023 00:31:33 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:78
+[26-Jan-2023 00:31:33 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/class-wpdb.php on line 1775
+[26-Jan-2023 00:31:33 UTC] PHP   6. WP_CLI\Runner->start() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:28
+[26-Jan-2023 00:31:33 UTC] PHP Stack trace:
+[26-Jan-2023 00:31:33 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1235
+[26-Jan-2023 00:31:33 UTC] PHP   1. {main}() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[26-Jan-2023 00:31:33 UTC] PHP   8. require() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1317
+[26-Jan-2023 00:31:33 UTC] PHP   2. include() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[26-Jan-2023 00:31:33 UTC] PHP   9. require_wp_db() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-settings.php:124
+[26-Jan-2023 00:31:33 UTC] PHP   3. include() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[26-Jan-2023 00:31:33 UTC] PHP  10. wpdb->__construct() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/load.php:562
+[26-Jan-2023 00:31:33 UTC] PHP   4. WP_CLI\bootstrap() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[26-Jan-2023 00:31:33 UTC] PHP  11. wpdb->db_connect() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/class-wpdb.php:734
+[26-Jan-2023 00:31:33 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:78
+[26-Jan-2023 00:31:33 UTC] PHP  12. mysqli_real_connect() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/class-wpdb.php:1775
+[26-Jan-2023 00:31:33 UTC] PHP   6. WP_CLI\Runner->start() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:28
+[26-Jan-2023 00:31:33 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1235
+[26-Jan-2023 00:31:33 UTC] PHP   8. require() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1317
+[26-Jan-2023 00:31:33 UTC] PHP   9. require_wp_db() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-settings.php:124
+[26-Jan-2023 00:31:33 UTC] PHP  10. wpdb->__construct() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/load.php:562
+[26-Jan-2023 00:31:33 UTC] PHP  11. wpdb->db_connect() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/class-wpdb.php:734
+[26-Jan-2023 00:31:33 UTC] PHP  12. mysqli_real_connect() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/class-wpdb.php:1775
+[26-Jan-2023 00:31:33 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/class-wpdb.php on line 1775
+[26-Jan-2023 00:31:33 UTC] PHP Stack trace:
+[26-Jan-2023 00:31:33 UTC] PHP   1. {main}() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[26-Jan-2023 00:31:33 UTC] PHP   2. include() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[26-Jan-2023 00:31:33 UTC] PHP   3. include() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[26-Jan-2023 00:31:33 UTC] PHP   4. WP_CLI\bootstrap() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[26-Jan-2023 00:31:33 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:78
+[26-Jan-2023 00:31:33 UTC] PHP   6. WP_CLI\Runner->start() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:28
+[26-Jan-2023 00:31:33 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1235
+[26-Jan-2023 00:31:33 UTC] PHP   8. require() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1317
+[26-Jan-2023 00:31:33 UTC] PHP   9. require_wp_db() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-settings.php:124
+[26-Jan-2023 00:31:33 UTC] PHP  10. wpdb->__construct() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/load.php:562
+[26-Jan-2023 00:31:33 UTC] PHP  11. wpdb->db_connect() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/class-wpdb.php:734
+[26-Jan-2023 00:31:33 UTC] PHP  12. mysqli_real_connect() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/class-wpdb.php:1775
+[16-Feb-2023 03:53:59 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/update.php on line 209
+[16-Feb-2023 03:53:59 UTC] PHP Stack trace:
+[16-Feb-2023 03:53:59 UTC] PHP   1. {main}() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[16-Feb-2023 03:53:59 UTC] PHP   2. include() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[16-Feb-2023 03:53:59 UTC] PHP   3. include() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[16-Feb-2023 03:53:59 UTC] PHP   4. WP_CLI\bootstrap() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[16-Feb-2023 03:53:59 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:78
+[16-Feb-2023 03:53:59 UTC] PHP   6. WP_CLI\Runner->start() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:28
+[16-Feb-2023 03:53:59 UTC] PHP   7. WP_CLI\Runner->run_command_and_exit() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[16-Feb-2023 03:53:59 UTC] PHP   8. WP_CLI\Runner->run_command() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:440
+[16-Feb-2023 03:53:59 UTC] PHP   9. WP_CLI\Dispatcher\Subcommand->invoke() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:417
+[16-Feb-2023 03:53:59 UTC] PHP  10. call_user_func:{phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/Subcommand.php:491}() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/Subcommand.php:491
+[16-Feb-2023 03:53:59 UTC] PHP  11. WP_CLI\Dispatcher\CommandFactory::WP_CLI\Dispatcher\{closure:phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/CommandFactory.php:97-104}() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/Subcommand.php:491
+[16-Feb-2023 03:53:59 UTC] PHP  12. call_user_func:{phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/CommandFactory.php:100}() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/CommandFactory.php:100
+[16-Feb-2023 03:53:59 UTC] PHP  13. Core_Command->check_update() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/CommandFactory.php:100
+[16-Feb-2023 03:53:59 UTC] PHP  14. Core_Command->get_updates() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/core-command/src/Core_Command.php:78
+[16-Feb-2023 03:53:59 UTC] PHP  15. wp_version_check() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/core-command/src/Core_Command.php:1297
+[16-Feb-2023 03:53:59 UTC] PHP  16. trigger_error() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/update.php:209
+[22-Feb-2023 16:21:13 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/update.php on line 209
+[22-Feb-2023 16:21:13 UTC] PHP Stack trace:
+[22-Feb-2023 16:21:13 UTC] PHP   1. {main}() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[22-Feb-2023 16:21:13 UTC] PHP   2. include() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[22-Feb-2023 16:21:13 UTC] PHP   3. include() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[22-Feb-2023 16:21:13 UTC] PHP   4. WP_CLI\bootstrap() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[22-Feb-2023 16:21:13 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:78
+[22-Feb-2023 16:21:13 UTC] PHP   6. WP_CLI\Runner->start() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:28
+[22-Feb-2023 16:21:13 UTC] PHP   7. WP_CLI\Runner->run_command_and_exit() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[22-Feb-2023 16:21:13 UTC] PHP   8. WP_CLI\Runner->run_command() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:440
+[22-Feb-2023 16:21:13 UTC] PHP   9. WP_CLI\Dispatcher\Subcommand->invoke() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:417
+[22-Feb-2023 16:21:13 UTC] PHP  10. call_user_func:{phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/Subcommand.php:491}() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/Subcommand.php:491
+[22-Feb-2023 16:21:13 UTC] PHP  11. WP_CLI\Dispatcher\CommandFactory::WP_CLI\Dispatcher\{closure:phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/CommandFactory.php:97-104}() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/Subcommand.php:491
+[22-Feb-2023 16:21:13 UTC] PHP  12. call_user_func:{phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/CommandFactory.php:100}() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/CommandFactory.php:100
+[22-Feb-2023 16:21:13 UTC] PHP  13. Core_Command->check_update() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/CommandFactory.php:100
+[22-Feb-2023 16:21:13 UTC] PHP  14. Core_Command->get_updates() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/core-command/src/Core_Command.php:78
+[22-Feb-2023 16:21:13 UTC] PHP  15. wp_version_check() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/core-command/src/Core_Command.php:1297
+[22-Feb-2023 16:21:13 UTC] PHP  16. trigger_error() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/update.php:209
+[04-Mar-2023 07:00:33 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/update.php on line 209
+[04-Mar-2023 07:00:33 UTC] PHP Stack trace:
+[04-Mar-2023 07:00:33 UTC] PHP   1. {main}() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[04-Mar-2023 07:00:33 UTC] PHP   2. include() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[04-Mar-2023 07:00:33 UTC] PHP   3. include() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[04-Mar-2023 07:00:33 UTC] PHP   4. WP_CLI\bootstrap() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[04-Mar-2023 07:00:33 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:78
+[04-Mar-2023 07:00:33 UTC] PHP   6. WP_CLI\Runner->start() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:28
+[04-Mar-2023 07:00:33 UTC] PHP   7. WP_CLI\Runner->run_command_and_exit() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[04-Mar-2023 07:00:33 UTC] PHP   8. WP_CLI\Runner->run_command() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:440
+[04-Mar-2023 07:00:33 UTC] PHP   9. WP_CLI\Dispatcher\Subcommand->invoke() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:417
+[04-Mar-2023 07:00:33 UTC] PHP  10. call_user_func:{phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/Subcommand.php:491}() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/Subcommand.php:491
+[04-Mar-2023 07:00:33 UTC] PHP  11. WP_CLI\Dispatcher\CommandFactory::WP_CLI\Dispatcher\{closure:phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/CommandFactory.php:97-104}() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/Subcommand.php:491
+[04-Mar-2023 07:00:33 UTC] PHP  12. call_user_func:{phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/CommandFactory.php:100}() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/CommandFactory.php:100
+[04-Mar-2023 07:00:33 UTC] PHP  13. Core_Command->check_update() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/CommandFactory.php:100
+[04-Mar-2023 07:00:33 UTC] PHP  14. Core_Command->get_updates() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/core-command/src/Core_Command.php:78
+[04-Mar-2023 07:00:33 UTC] PHP  15. wp_version_check() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/core-command/src/Core_Command.php:1297
+[04-Mar-2023 07:00:33 UTC] PHP  16. trigger_error() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/update.php:209
+[14-Mar-2023 07:59:58 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/update.php on line 209
+[14-Mar-2023 07:59:58 UTC] PHP Stack trace:
+[14-Mar-2023 07:59:58 UTC] PHP   1. {main}() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[14-Mar-2023 07:59:58 UTC] PHP   2. include() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[14-Mar-2023 07:59:58 UTC] PHP   3. include() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[14-Mar-2023 07:59:58 UTC] PHP   4. WP_CLI\bootstrap() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[14-Mar-2023 07:59:58 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:78
+[14-Mar-2023 07:59:58 UTC] PHP   6. WP_CLI\Runner->start() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:28
+[14-Mar-2023 07:59:58 UTC] PHP   7. WP_CLI\Runner->run_command_and_exit() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[14-Mar-2023 07:59:58 UTC] PHP   8. WP_CLI\Runner->run_command() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:440
+[14-Mar-2023 07:59:58 UTC] PHP   9. WP_CLI\Dispatcher\Subcommand->invoke() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:417
+[14-Mar-2023 07:59:58 UTC] PHP  10. call_user_func:{phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/Subcommand.php:491}() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/Subcommand.php:491
+[14-Mar-2023 07:59:58 UTC] PHP  11. WP_CLI\Dispatcher\CommandFactory::WP_CLI\Dispatcher\{closure:phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/CommandFactory.php:97-104}() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/Subcommand.php:491
+[14-Mar-2023 07:59:58 UTC] PHP  12. call_user_func:{phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/CommandFactory.php:100}() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/CommandFactory.php:100
+[14-Mar-2023 07:59:58 UTC] PHP  13. Core_Command->check_update() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/CommandFactory.php:100
+[14-Mar-2023 07:59:58 UTC] PHP  14. Core_Command->get_updates() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/core-command/src/Core_Command.php:78
+[14-Mar-2023 07:59:58 UTC] PHP  15. wp_version_check() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/core-command/src/Core_Command.php:1297
+[14-Mar-2023 07:59:58 UTC] PHP  16. trigger_error() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/update.php:209
+[13-May-2023 05:15:06 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/class-wpdb.php on line 1775
+[13-May-2023 05:15:06 UTC] PHP Stack trace:
+[13-May-2023 05:15:06 UTC] PHP   1. {main}() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[13-May-2023 05:15:06 UTC] PHP   2. include() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[13-May-2023 05:15:06 UTC] PHP   3. include() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[13-May-2023 05:15:06 UTC] PHP   4. WP_CLI\bootstrap() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[13-May-2023 05:15:06 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:78
+[13-May-2023 05:15:06 UTC] PHP   6. WP_CLI\Runner->start() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:28
+[13-May-2023 05:15:06 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1235
+[13-May-2023 05:15:06 UTC] PHP   8. require() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1317
+[13-May-2023 05:15:06 UTC] PHP   9. require_wp_db() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-settings.php:124
+[13-May-2023 05:15:06 UTC] PHP  10. wpdb->__construct() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/load.php:562
+[13-May-2023 05:15:06 UTC] PHP  11. wpdb->db_connect() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/class-wpdb.php:734
+[13-May-2023 05:15:06 UTC] PHP  12. mysqli_real_connect() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/class-wpdb.php:1775
+[13-May-2023 05:15:07 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/class-wpdb.php on line 1775
+[13-May-2023 05:15:07 UTC] PHP Stack trace:
+[13-May-2023 05:15:07 UTC] PHP   1. {main}() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[13-May-2023 05:15:07 UTC] PHP   2. include() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[13-May-2023 05:15:07 UTC] PHP   3. include() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[13-May-2023 05:15:07 UTC] PHP   4. WP_CLI\bootstrap() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[13-May-2023 05:15:07 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:78
+[13-May-2023 05:15:07 UTC] PHP   6. WP_CLI\Runner->start() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:28
+[13-May-2023 05:15:07 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1235
+[13-May-2023 05:15:07 UTC] PHP   8. require() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1317
+[13-May-2023 05:15:07 UTC] PHP   9. require_wp_db() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-settings.php:124
+[13-May-2023 05:15:07 UTC] PHP  10. wpdb->__construct() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/load.php:562
+[13-May-2023 05:15:07 UTC] PHP  11. wpdb->db_connect() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/class-wpdb.php:734
+[13-May-2023 05:15:07 UTC] PHP  12. mysqli_real_connect() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/class-wpdb.php:1775
+[13-May-2023 05:15:07 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/class-wpdb.php on line 1775
+[13-May-2023 05:15:07 UTC] PHP Stack trace:
+[13-May-2023 05:15:07 UTC] PHP   1. {main}() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[13-May-2023 05:15:07 UTC] PHP   2. include() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[13-May-2023 05:15:07 UTC] PHP   3. include() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[13-May-2023 05:15:07 UTC] PHP   4. WP_CLI\bootstrap() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[13-May-2023 05:15:07 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:78
+[13-May-2023 05:15:07 UTC] PHP   6. WP_CLI\Runner->start() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:28
+[13-May-2023 05:15:07 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1235
+[13-May-2023 05:15:07 UTC] PHP   8. require() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1317
+[13-May-2023 05:15:07 UTC] PHP   9. require_wp_db() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-settings.php:124
+[13-May-2023 05:15:07 UTC] PHP  10. wpdb->__construct() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/load.php:562
+[13-May-2023 05:15:07 UTC] PHP  11. wpdb->db_connect() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/class-wpdb.php:734
+[13-May-2023 05:15:07 UTC] PHP  12. mysqli_real_connect() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/class-wpdb.php:1775
+[13-May-2023 05:15:08 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/class-wpdb.php on line 1775
+[13-May-2023 05:15:08 UTC] PHP Stack trace:
+[13-May-2023 05:15:08 UTC] PHP   1. {main}() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[13-May-2023 05:15:08 UTC] PHP   2. include() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[13-May-2023 05:15:08 UTC] PHP   3. include() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[13-May-2023 05:15:08 UTC] PHP   4. WP_CLI\bootstrap() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[13-May-2023 05:15:08 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:78
+[13-May-2023 05:15:08 UTC] PHP   6. WP_CLI\Runner->start() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:28
+[13-May-2023 05:15:08 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1235
+[13-May-2023 05:15:08 UTC] PHP   8. require() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1317
+[13-May-2023 05:15:08 UTC] PHP   9. require_wp_db() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-settings.php:124
+[13-May-2023 05:15:08 UTC] PHP  10. wpdb->__construct() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/load.php:562
+[13-May-2023 05:15:08 UTC] PHP  11. wpdb->db_connect() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/class-wpdb.php:734
+[13-May-2023 05:15:08 UTC] PHP  12. mysqli_real_connect() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/class-wpdb.php:1775
+[13-May-2023 05:15:08 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/class-wpdb.php on line 1775
+[13-May-2023 05:15:08 UTC] PHP Stack trace:
+[13-May-2023 05:15:08 UTC] PHP   1. {main}() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[13-May-2023 05:15:08 UTC] PHP   2. include() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[13-May-2023 05:15:08 UTC] PHP   3. include() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[13-May-2023 05:15:08 UTC] PHP   4. WP_CLI\bootstrap() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[13-May-2023 05:15:08 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:78
+[13-May-2023 05:15:08 UTC] PHP   6. WP_CLI\Runner->start() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:28
+[13-May-2023 05:15:08 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1235
+[13-May-2023 05:15:08 UTC] PHP   8. require() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1317
+[13-May-2023 05:15:08 UTC] PHP   9. require_wp_db() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-settings.php:124
+[13-May-2023 05:15:08 UTC] PHP  10. wpdb->__construct() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/load.php:562
+[13-May-2023 05:15:08 UTC] PHP  11. wpdb->db_connect() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/class-wpdb.php:734
+[13-May-2023 05:15:08 UTC] PHP  12. mysqli_real_connect() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/class-wpdb.php:1775
+[13-May-2023 05:15:08 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/class-wpdb.php on line 1775
+[13-May-2023 05:15:08 UTC] PHP Stack trace:
+[13-May-2023 05:15:08 UTC] PHP   1. {main}() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[13-May-2023 05:15:08 UTC] PHP   2. include() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[13-May-2023 05:15:08 UTC] PHP   3. include() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[13-May-2023 05:15:08 UTC] PHP   4. WP_CLI\bootstrap() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[13-May-2023 05:15:08 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:78
+[13-May-2023 05:15:08 UTC] PHP   6. WP_CLI\Runner->start() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:28
+[13-May-2023 05:15:08 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1235
+[13-May-2023 05:15:08 UTC] PHP   8. require() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1317
+[13-May-2023 05:15:08 UTC] PHP   9. require_wp_db() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-settings.php:124
+[13-May-2023 05:15:08 UTC] PHP  10. wpdb->__construct() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/load.php:562
+[13-May-2023 05:15:08 UTC] PHP  11. wpdb->db_connect() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/class-wpdb.php:734
+[13-May-2023 05:15:08 UTC] PHP  12. mysqli_real_connect() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/class-wpdb.php:1775
+[13-May-2023 05:15:08 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/class-wpdb.php on line 1775
+[13-May-2023 05:15:08 UTC] PHP Stack trace:
+[13-May-2023 05:15:08 UTC] PHP   1. {main}() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[13-May-2023 05:15:08 UTC] PHP   2. include() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[13-May-2023 05:15:08 UTC] PHP   3. include() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[13-May-2023 05:15:08 UTC] PHP   4. WP_CLI\bootstrap() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[13-May-2023 05:15:08 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:78
+[13-May-2023 05:15:08 UTC] PHP   6. WP_CLI\Runner->start() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:28
+[13-May-2023 05:15:08 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1235
+[13-May-2023 05:15:08 UTC] PHP   8. require() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1317
+[13-May-2023 05:15:08 UTC] PHP   9. require_wp_db() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-settings.php:124
+[13-May-2023 05:15:08 UTC] PHP  10. wpdb->__construct() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/load.php:562
+[13-May-2023 05:15:08 UTC] PHP  11. wpdb->db_connect() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/class-wpdb.php:734
+[13-May-2023 05:15:08 UTC] PHP  12. mysqli_real_connect() /Users/tonyalvarez/Local Sites/nanintranet/app/public/wp-includes/class-wpdb.php:1775
